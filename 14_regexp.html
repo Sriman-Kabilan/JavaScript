@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var pan = "ABCDE1234F";
+        var pan1 = "CDABE8856L"
+        var pattern = /[A-Z]{5}[0-9]{4}[A-Z]{1}/g
+        document.write(pan1.match(pattern));document.write("<br>");
+        document.write(pan.match(pattern));
+    </script>
+</body>
+</html>
